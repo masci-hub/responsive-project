@@ -1,8 +1,52 @@
-h1 {
-  color: teal;
-  font-family: "Nunito", sans-serif;
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --tertiary-color: #272142;
+  --default-font-family: "Nunito", sans-serif;
+  --heading-font-family: "Playfair Display", serif;
 }
 
-p {
-  font-family: "Playfair Display", serif;
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-family);
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.hero p {
+  color: var(--tertiary-color);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  color: var(--tertiary-color);
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 2;
+}
+
+.primary-button {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 15px 30px;
 }
