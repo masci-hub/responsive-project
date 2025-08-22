@@ -80,7 +80,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .content h1 {
@@ -112,6 +112,22 @@ p {
   margin: 30px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 576px) {
   .hero {
     padding: 80px 20px;
@@ -129,7 +145,6 @@ p {
   }
 
   .content-container {
-    padding: 80px 20px;
     text-align: center;
   }
 
