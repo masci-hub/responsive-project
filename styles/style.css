@@ -22,7 +22,7 @@ p {
 }
 
 a {
-  color: black;
+  color: var(--tertiary-color);
   text-decoration: none;
 }
 
