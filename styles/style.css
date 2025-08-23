@@ -12,12 +12,63 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family);
 }
 
 p {
   color: var(--tertiary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  max-width: 90%;
+  padding: 30px 90px;
+}
+
+footer .contact-box h4 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+footer .contact-box p {
+  font-size: 18px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+footer .contact-box a {
+  font-size: 18px;
+}
+
+footer .email-link a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer .email-link a:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  color: var(--branding-color);
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 14px;
+}
+
+footer .social-links a:hover {
+  background-color: var(--branding-color);
+  color: white;
 }
 
 .hero {
@@ -55,6 +106,12 @@ p {
   padding: 15px 30px;
 }
 
+.primary-button:hover {
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+
 .secondary-button {
   border: 1px solid var(--branding-color);
   border-radius: 4px;
@@ -63,6 +120,11 @@ p {
   font-weight: 500;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.secondary-button:hover {
+  background-color: var(--branding-color);
+  color: white;
 }
 
 .project-description {
