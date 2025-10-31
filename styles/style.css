@@ -22,12 +22,12 @@ p {
 }
 
 a {
-  color: var(--tertiary-color);
+  color: var(--branding-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--branding-color);
+  text-decoration: underline;
 }
 
 footer {
@@ -57,11 +57,13 @@ footer .contact-box a {
 }
 
 footer .email-link a {
+  color: var(--tertiary-color);
   font-size: 24px;
 }
 
 footer .email-link a:hover {
   color: var(--branding-color);
+  text-decoration: none;
 }
 
 footer .social-links a {
@@ -117,6 +119,7 @@ footer .social-links a:hover {
   background-color: white;
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
+  text-decoration: none;
 }
 
 .secondary-button {
@@ -132,6 +135,7 @@ footer .social-links a:hover {
 .secondary-button:hover {
   background-color: var(--branding-color);
   color: white;
+  text-decoration: none;
 }
 
 .project-description {
