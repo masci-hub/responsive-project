@@ -19,6 +19,7 @@ h4 {
 
 p {
   color: var(--tertiary-color);
+  opacity: 0.7;
 }
 
 a {
@@ -48,7 +49,6 @@ footer .contact-box h3 {
 
 footer .contact-box p {
   font-size: 18px;
-  opacity: 0.7;
   margin: 0;
 }
 
@@ -186,6 +186,7 @@ footer .social-links a:hover {
   font-size: 32px;
   font-weight: bold;
   line-height: 1.5;
+  opacity: 0.7;
 }
 
 .content h3 {
@@ -196,7 +197,6 @@ footer .social-links a:hover {
 .content p {
   color: var(--tertiary-color);
   line-height: 30px;
-  opacity: 0.7;
 }
 
 @media (max-width: 576px) {
