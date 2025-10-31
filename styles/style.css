@@ -41,7 +41,7 @@ footer .contact-box {
   padding: 30px 90px;
 }
 
-footer .contact-box h4 {
+footer .contact-box h3 {
   font-size: 48px;
   font-weight: bold;
 }
@@ -80,15 +80,31 @@ footer .social-links a:hover {
   color: white;
 }
 
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.logo {
+  max-height: 40px;
+}
+
 .hero {
   background-color: var(--secondary-color);
   padding: 120px 20px;
   text-align: center;
 }
 
-.hero p {
+.hero h2 {
   font-size: 36px;
-  font-weight: bold;
   margin: 0;
 }
 
@@ -98,11 +114,11 @@ footer .social-links a:hover {
   line-height: 1.5;
 }
 
-.hero h2 {
+.hero h3 {
   color: var(--tertiary-color);
-  font-family: var(--default-font-family);
   font-size: 24px;
   line-height: 1.5;
+  opacity: 0.7;
 }
 
 .primary-button {
@@ -156,6 +172,10 @@ footer .social-links a:hover {
   padding: 80px 20px;
 }
 
+.content {
+  margin: 0 30px;
+}
+
 .content h1 {
   font-size: 64px;
   font-weight: bold;
@@ -179,27 +199,6 @@ footer .social-links a:hover {
   color: var(--tertiary-color);
   line-height: 30px;
   opacity: 0.7;
-}
-
-.content {
-  margin: 0 30px;
-}
-
-.logo {
-  max-height: 40px;
-}
-
-.nav-item {
-  padding: 0 15px;
-}
-
-.navbar-nav .nav-link.active {
-  color: var(--branding-color);
-}
-
-.navbar-nav .nav-link:hover {
-  color: var(--branding-color);
-  text-decoration: none;
 }
 
 @media (max-width: 576px) {
